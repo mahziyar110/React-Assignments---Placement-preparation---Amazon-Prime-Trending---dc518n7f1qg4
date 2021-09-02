@@ -9,7 +9,7 @@ const App = () => {
     <>
       <div id="slide">
         <h1 data-testid="title">{"title " + index}</h1>
-        <p data-testid="text">{slides[index].text}</p>
+        <p data-testid="text">{"text " + index}</p>
       </div>
       <div id="navigation">
         <button
