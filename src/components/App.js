@@ -8,8 +8,8 @@ const App = () => {
   return (
     <>
       <div id="slide">
-        <h1 data-testid="title">{"title " + index}</h1>
-        <p data-testid="text">{"text " + index}</p>
+        <h1 data-testid="title">{slides[index].title}</h1>
+        <p data-testid="text">{slides[index].text}</p>
       </div>
       <div id="navigation">
         <button
